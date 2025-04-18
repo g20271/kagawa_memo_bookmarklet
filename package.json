@@ -1,0 +1,9 @@
+{
+  "name": "kagawa-sensei-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild main.js --bundle --minify --outfile=bookmarklet.js --banner:js=javascript: --format=iife"
+  }
+}
